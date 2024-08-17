@@ -21,9 +21,6 @@ let package = Package(
     targets: [
         .target(
             name: "Parma",
-            dependencies: ["Down"]),
-        .testTarget(
-            name: "ParmaTests",
-            dependencies: ["Parma"]),
+            dependencies: ["Down"])
     ]
 )
