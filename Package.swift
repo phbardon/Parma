@@ -16,7 +16,7 @@ let package = Package(
             targets: ["Parma"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/phbardon/Down")
+        .package(url: "https://github.com/phbardon/Down", from: "1.0.0")
     ],
     targets: [
         .target(
